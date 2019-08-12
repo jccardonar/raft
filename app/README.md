@@ -9,7 +9,7 @@ In order to run one instance in the application cluster, with debug/logging writ
 application as follows:
 
 ```
-./app -config=app.json  -localNode=2 -zapFile=/tmp/log -debug
+./app -config=test/app.json  -localNode=2 -zapFile=/tmp/log -debug
 ```
 
 The output generated to stdout looks as follows:
